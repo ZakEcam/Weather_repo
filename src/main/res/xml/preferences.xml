@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="my_boolean"
+            android:summaryOff="This is not True"
+            android:summaryOn="This is not False"
+            android:title="My Boolean"/>
+</PreferenceScreen>
